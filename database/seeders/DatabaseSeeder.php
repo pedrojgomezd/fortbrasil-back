@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-      DB::table('users')->insert([
+      \DB::table('users')->insert([
         'name' => 'Admin',
         'email' => 'admin@gmail.com',
         'email_verified_at' => now(),
